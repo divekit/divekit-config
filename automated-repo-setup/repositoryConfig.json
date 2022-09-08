@@ -1,0 +1,41 @@
+{
+    "general": {
+        "localMode": true,
+        "createTestRepository": true,
+        "variateRepositories": true,
+        "deleteSolution": false,
+        "activateVariableValueWarnings": true,
+        "maxConcurrentWorkers": 1
+    },
+    "repository": {
+        "repositoryName": "st2-praktikum",
+        "repositoryCount": 0,
+        "repositoryMembers": [
+            ["pschmeie"],
+            ["fkrampe"]
+        ]
+    },
+    "individualRepositoryPersist": {
+        "useSavedIndividualRepositories": false,
+        "savedIndividualRepositoriesFileName": "ms-spring.json"
+    },
+    "local": {
+        "originRepositoryFilePath": "resources/test/input/st2-praktikum-m0-origin-repo-master",
+        "subsetPaths": [
+            "README.md",
+            "src/main/java/thkoeln/st/st2praktikum/exercise/$moveable_interface$.java"
+        ]
+    },
+    "remote": {
+        "originRepositoryId": 1012,
+        "codeRepositoryTargetGroupId": 161,
+        "testRepositoryTargetGroupId": 170,
+        "deleteExistingRepositories": false,
+        "addUsersAsGuests": false
+    },
+    "overview": {
+        "generateOverview": true,
+        "overviewRepositoryId": 1018,
+        "overviewFileName": "spring-nachholpraktikum"
+    }
+}

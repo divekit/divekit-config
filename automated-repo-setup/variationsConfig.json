@@ -1,0 +1,559 @@
+{
+    "objects": [
+        {
+            "ids": "Move",
+            "objectVariations": [
+                {
+                    "id": "Variant1",
+                    "Start": "(0,2)",
+                    "Seq1": {
+                        "Commands": {
+                            "1": "[so,2]",
+                            "2": "[ea,3]",
+                            "3": "[no,9]",
+                            "4": "[ea,5]"
+                        },
+                        "Goal": "(6,8)"
+                    },
+                    "Seq2": {
+                        "Commands": {
+                            "1": "[no,1]",
+                            "2": "[ea,5]",
+                            "3": "[so,5]",
+                            "4": "[we,2]"
+                        },
+                        "Goal": "(3,0)"
+                    },
+                    "Seq3": {
+                        "Commands": {
+                            "1": "[no,2]",
+                            "2": "[ea,8]",
+                            "3": "[no,3]",
+                            "4": "[we,5]"
+                        },
+                        "Goal": "(7,7)"
+                    },
+                    "Seq4": {
+                        "Commands": {
+                            "1": "[no,2]",
+                            "2": "[no,2]",
+                            "3": "[ea,4]",
+                            "4": "[ea,4]"
+                        },
+                        "Goal": "(6,6)"
+                    }
+                },
+                {
+                    "id": "Variant2",
+                    "Start": "(8,3)",
+                    "Seq1": {
+                        "Commands": {
+                            "1": "[so,3]",
+                            "2": "[we,3]",
+                            "3": "[no,3]",
+                            "4": "[ea,5]"
+                        },
+                        "Goal": "(11,4)"
+                    },
+                    "Seq2": {
+                        "Commands": {
+                            "1": "[ea,3]",
+                            "2": "[no,2]",
+                            "3": "[we,8]",
+                            "4": "[so,2]"
+                        },
+                        "Goal": "(4,3)"
+                    },
+                    "Seq3": {
+                        "Commands": {
+                            "1": "[we,5]",
+                            "2": "[ea,3]",
+                            "3": "[we,5]",
+                            "4": "[ea,3]"
+                        },
+                        "Goal": "(9,3)"
+                    },
+                    "Seq4": {
+                        "Commands": {
+                            "1": "[ea,1]",
+                            "2": "[so,3]",
+                            "3": "[we,6]",
+                            "4": "[no,3]"
+                        },
+                        "Goal": "(3,3)"
+                    }
+                },
+                {
+                    "id": "Variant3",
+                    "Start": "(1,7)",
+                    "Seq1": {
+                        "Commands": {
+                            "1": "[ea,3]",
+                            "2": "[we,2]",
+                            "3": "[ea,4]",
+                            "4": "[so,5]"
+                        },
+                        "Goal": "(2,2)"
+                    },
+                    "Seq2": {
+                        "Commands": {
+                            "1": "[so,5]",
+                            "2": "[ea,5]",
+                            "3": "[so,4]",
+                            "4": "[no,5]"
+                        },
+                        "Goal": "(5,5)"
+                    },
+                    "Seq3": {
+                        "Commands": {
+                            "1": "[so,5]",
+                            "2": "[ea,4]",
+                            "3": "[no,1]",
+                            "4": "[we,3]"
+                        },
+                        "Goal": "(3,3)"
+                    },
+                    "Seq4": {
+                        "Commands": {
+                            "1": "[so,9]",
+                            "2": "[ea,5]",
+                            "3": "[no,3]",
+                            "4": "[ea,5]"
+                        },
+                        "Goal": "(5,2)"
+                    }
+                },
+                {
+                    "id": "Variant4",
+                    "Start": "(5,3)",
+                    "Seq1": {
+                        "Commands": {
+                            "1": "[no,2]",
+                            "2": "[we,8]",
+                            "3": "[no,1]",
+                            "4": "[ea,9]"
+                        },
+                        "Goal": "(5,6)"
+                    },
+                    "Seq2": {
+                        "Commands": {
+                            "1": "[we,4]",
+                            "2": "[so,3]",
+                            "3": "[ea,5]",
+                            "4": "[no,6]"
+                        },
+                        "Goal": "(6,2)"
+                    },
+                    "Seq3": {
+                        "Commands": {
+                            "1": "[we,3]",
+                            "2": "[so,1]",
+                            "3": "[ea,3]",
+                            "4": "[so,2]"
+                        },
+                        "Goal": "(3,0)"
+                    },
+                    "Seq4": {
+                        "Commands": {
+                            "1": "[no,3]",
+                            "2": "[we,7]",
+                            "3": "[no,3]",
+                            "4": "[so,4]"
+                        },
+                        "Goal": "(0,3)"
+                    }
+                },
+                {
+                    "id": "Variant5",
+                    "Start": "(11,7)",
+                    "Seq1": {
+                        "Commands": {
+                            "1": "[we,7]",
+                            "2": "[so,6]",
+                            "3": "[ea,2]",
+                            "4": "[no,5]"
+                        },
+                        "Goal": "(6,5)"
+                    },
+                    "Seq2": {
+                        "Commands": {
+                            "1": "[so,1]",
+                            "2": "[we,7]",
+                            "3": "[so,1]",
+                            "4": "[ea,2]"
+                        },
+                        "Goal": "(4,5)"
+                    },
+                    "Seq3": {
+                        "Commands": {
+                            "1": "[ea,5]",
+                            "2": "[no,3]",
+                            "3": "[so,4]",
+                            "4": "[we,2]"
+                        },
+                        "Goal": "(9,6)"
+                    },
+                    "Seq4": {
+                        "Commands": {
+                            "1": "[we,9]",
+                            "2": "[so,4]",
+                            "3": "[ea,9]",
+                            "4": "[so,8]"
+                        },
+                        "Goal": "(5,0)"
+                    }
+                },
+                {
+                    "id": "Variant6",
+                    "Start": "(3,0)",
+                    "Seq1": {
+                        "Commands": {
+                            "1": "[ea,5]",
+                            "2": "[no,3]",
+                            "3": "[we,4]",
+                            "4": "[so,1]"
+                        },
+                        "Goal": "(3,1)"
+                    },
+                    "Seq2": {
+                        "Commands": {
+                            "1": "[no,4]",
+                            "2": "[ea,4]",
+                            "3": "[so,1]",
+                            "4": "[we,7]"
+                        },
+                        "Goal": "(3,2)"
+                    },
+                    "Seq3": {
+                        "Commands": {
+                            "1": "[no,3]",
+                            "2": "[we,3]",
+                            "3": "[so,4]",
+                            "4": "[no,3]"
+                        },
+                        "Goal": "(0,3)"
+                    },
+                    "Seq4": {
+                        "Commands": {
+                            "1": "[no,4]",
+                            "2": "[we,1]",
+                            "3": "[so,4]",
+                            "4": "[ea,1]"
+                        },
+                        "Goal": "(2,0)"
+                    }
+                },
+                {
+                    "id": "Variant7",
+                    "Start": "(1,6)",
+                    "Seq1": {
+                        "Commands": {
+                            "1": "[so,5]",
+                            "2": "[we,3]",
+                            "3": "[ea,5]",
+                            "4": "[so,3]"
+                        },
+                        "Goal": "(2,5)"
+                    },
+                    "Seq2": {
+                        "Commands": {
+                            "1": "[ea,1]",
+                            "2": "[so,2]",
+                            "3": "[we,4]",
+                            "4": "[so,4]"
+                        },
+                        "Goal": "(0,1)"
+                    },
+                    "Seq3": {
+                        "Commands": {
+                            "1": "[ea,5]",
+                            "2": "[so,3]",
+                            "3": "[we,6]",
+                            "4": "[no,3]"
+                        },
+                        "Goal": "(0,5)"
+                    },
+                    "Seq4": {
+                        "Commands": {
+                            "1": "[ea,1]",
+                            "2": "[so,1]",
+                            "3": "[ea,9]",
+                            "4": "[so,9]"
+                        },
+                        "Goal": "(10,0)"
+                    }
+                },
+                {
+                    "id": "Variant8",
+                    "Start": "(7,7)",
+                    "Seq1": {
+                        "Commands": {
+                            "1": "[no,5]",
+                            "2": "[so,9]",
+                            "3": "[we,4]",
+                            "4": "[so,4]"
+                        },
+                        "Goal": "(3,1)"
+                    },
+                    "Seq2": {
+                        "Commands": {
+                            "1": "[we,6]",
+                            "2": "[so,6]",
+                            "3": "[ea,4]",
+                            "4": "[no,3]"
+                        },
+                        "Goal": "(1,4)"
+                    },
+                    "Seq3": {
+                        "Commands": {
+                            "1": "[we,6]",
+                            "2": "[so,9]",
+                            "3": "[ea,9]",
+                            "4": "[no,9]"
+                        },
+                        "Goal": "(10,7)"
+                    },
+                    "Seq4": {
+                        "Commands": {
+                            "1": "[so,3]",
+                            "2": "[no,2]",
+                            "3": "[so,5]",
+                            "4": "[we,6]"
+                        },
+                        "Goal": "(2,1)"
+                    }
+                },
+                {
+                    "id": "Variant9",
+                    "Start": "(4,0)",
+                    "Seq1": {
+                        "Commands": {
+                            "1": "[no,5]",
+                            "2": "[we,3]",
+                            "3": "[so,2]",
+                            "4": "[ea,1]"
+                        },
+                        "Goal": "(2,3)"
+                    },
+                    "Seq2": {
+                        "Commands": {
+                            "1": "[no,9]",
+                            "2": "[ea,2]",
+                            "3": "[so,6]",
+                            "4": "[we,9]"
+                        },
+                        "Goal": "(0,6)"
+                    },
+                    "Seq3": {
+                        "Commands": {
+                            "1": "[no,6]",
+                            "2": "[we,4]",
+                            "3": "[so,8]",
+                            "4": "[ea,2]"
+                        },
+                        "Goal": "(0,0)"
+                    },
+                    "Seq4": {
+                        "Commands": {
+                            "1": "[no,4]",
+                            "2": "[ea,8]",
+                            "3": "[we,2]",
+                            "4": "[no,5]"
+                        },
+                        "Goal": "(4,7)"
+                    }
+                }
+            ],
+            "variableExtensions": [ ]
+        },
+        {
+            "ids": "robot",
+            "objectVariations": [
+                {
+                    "id": "CleaningMachine",
+                    "": "cleaning machine",
+                    "purpose": { "": "clean a given space - vacuum it, remove food stains, etc"},
+                    "grid": {
+                        "": "space",
+                        "s": { "": "spaces" },
+                        "a": { "": "a" },
+                        "A": { "": "A" }
+                    },
+                    "transportSystem": {
+                        "": "connection",
+                        "_ex1": "staircase",
+                        "_ex2": "elevator"
+                    }
+                },
+                {
+                    "id": "TidyUpDevice",
+                    "": "tidy-up device",
+                    "purpose": { "": "tidy up a room - collect garbage, sort stuff, etc"},
+                    "grid": {
+                        "": "room",
+                        "s": { "": "rooms" },
+                        "a": { "": "a" },
+                        "A": { "": "A" }
+                    },
+                    "transportSystem": {
+                        "": "entrance",
+                        "_ex1": "hallway",
+                        "_ex2": "staircase"
+                    }
+                },
+                {
+                    "id": "RepairBot",
+                    "": "repair bot",
+                    "purpose": { "": "fix minor problems - reconnect loose plugs, switch broken light bulbs, etc"},
+                    "grid": {
+                        "": "spaceship deck",
+                        "s": { "": "spaceship decks" },
+                        "a": { "": "a" },
+                        "A": { "": "A" }
+                    },
+                    "transportSystem": {
+                        "": "supply shaft",
+                        "_ex1": "internal tube",
+                        "_ex2": "lift"
+                    }
+                },
+                {
+                    "id": "MiningRobot",
+                    "": "mining robot",
+                    "purpose": { "": "collect minerals from a mining area, like copper, cobalt, lithium, etc"},
+                    "grid": {
+                        "": "area",
+                        "s": { "": "areas" },
+                        "a": { "": "a" },
+                        "A": { "": "A" }
+                    },
+                    "transportSystem": {
+                        "": "link",
+                        "_ex1": "tunnel",
+                        "_ex2": "conveyor belt"
+                    }
+                }
+            ],
+            "variableExtensions": []
+        },
+        {
+            "ids": "wall",
+            "objectVariations": [
+                {
+                    "id": "realwall",
+                    "": "wall",
+                    "s": "walls",
+                    "a": { "": "a" },
+                    "A": { "": "A" }
+                },
+                {
+                    "id": "obstacle",
+                    "": "obstacle",
+                    "s": "obstacles",
+                    "a": { "": "an" },
+                    "A": { "": "An" }
+                },
+                {
+                    "id": "obstruction",
+                    "": "obstruction",
+                    "s": "obstructions",
+                    "a": { "": "an" },
+                    "A": { "": "An" }
+                },
+                {
+                    "id": "barrier",
+                    "": "barrier",
+                    "s": "barriers",
+                    "a": { "": "a" },
+                    "A": { "": "A" }
+                },
+                {
+                    "id": "barricade",
+                    "": "barricade",
+                    "s": "barricades",
+                    "a": { "": "a" },
+                    "A": { "": "A" }
+                },
+                {
+                    "id": "fence",
+                    "": "fence",
+                    "s": "fences",
+                    "a": { "": "a" },
+                    "A": { "": "A" }
+                }
+            ],
+            "variableExtensions": []
+        },
+        {
+            "ids": "raster",
+            "objectVariations": [
+                {
+                    "id": "cell",
+                    "": "cell",
+                    "s": "cells"
+                },
+                {
+                    "id": "gridcell",
+                    "": "gridcell",
+                    "s": "gridcells"
+                },
+                {
+                    "id": "tile",
+                    "": "tile",
+                    "s": "tiles"
+                }
+            ],
+            "variableExtensions": []
+        },
+        {
+            "ids": "moveable",
+            "objectVariations": [
+                {
+                    "id": "move",
+                    "": "move",
+                    "interface": {"": "Moveable"},
+                    "interfacevariable": {"": "moveable"},
+                    "param": {"": "moveCommandString"}
+                },
+                {
+                    "id": "moveTo",
+                    "": "moveTo",
+                    "interface": {"": "Moveable"},
+                    "interfacevariable": {"": "moveable"},
+                    "param": {"": "moveCommandString"}
+                },
+                {
+                    "id": "walk",
+                    "": "walk",
+                    "interface": {"": "Walkable"},
+                    "interfacevariable": {"": "walkable"},
+                    "param": {"": "walkCommandString"}
+                },
+                {
+                    "id": "walkTo",
+                    "": "walkTo",
+                    "interface": {"": "Walkable"},
+                    "interfacevariable": {"": "walkable"},
+                    "param": {"": "walkCommandString"}
+                },
+                {
+                    "id": "goTo",
+                    "": "goTo",
+                    "interface": {"": "GoAble"},
+                    "interfacevariable": {"": "goAble"},
+                    "param": {"": "goCommandString"}
+                },
+                {
+                    "id": "go",
+                    "": "go",
+                    "interface": {"": "GoAble"},
+                    "interfacevariable": {"": "goAble"},
+                    "param": {"": "goCommandString"}
+                }
+            ],
+            "variableExtensions": []
+        }
+    ],
+    "relations": [],
+    "logic": []
+}
